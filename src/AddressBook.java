@@ -7,6 +7,9 @@ public class AddressBook {
 
     public void main(){
         System.out.println("Address Book");
+        BuddyInfo bud = new BuddyInfo();
+        addBuddy(bud);
+        removeBuddy();
     }
 
     public AddressBook() {
