@@ -19,10 +19,6 @@ public class AddressBook {
         }
     }
 
-    public void testMethod() {
-        return;
-    }
-
     public static void main(String[] args){
         System.out.println("Address Book");
         AddressBook addressBook = new AddressBook();
