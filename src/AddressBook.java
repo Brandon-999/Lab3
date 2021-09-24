@@ -19,13 +19,17 @@ public class AddressBook {
         }
     }
 
+    public void testMethod() {
+        return;
+    }
+
     public static void main(String[] args){
         System.out.println("Address Book");
         AddressBook addressBook = new AddressBook();
         BuddyInfo bud = new BuddyInfo();
         addressBook.addBuddy(bud);
         addressBook.removeBuddy(0);
-        int testChange = 12;
+
     }
 
 }
